@@ -11,6 +11,7 @@ import page7 from "../../Assets/../Assets/ProjectPages/Visualizer/Visualizer_Pag
 import page8 from "../../Assets/../Assets/ProjectPages/Visualizer/Visualizer_Page_08.png"
 import page9 from "../../Assets/../Assets/ProjectPages/Visualizer/Visualizer_Page_09.png"
 import page10 from "../../Assets/../Assets/ProjectPages/Visualizer/Visualizer_Page_10.png"
+import demo from "../../Assets/../Assets/ProjectPages/Visualizer/visualizer_demo.mp4"
 
 
 import { Document, Page, pdfjs } from "react-pdf";
@@ -40,6 +41,11 @@ function Visualizer() {
         <p className="subsubheading"  style={{ paddingBottom: 30 }}>
             24 Fall, Harvard University. With Zheng Fang.
         </p>
+
+        <video width="100%" height="auto" controls style={{ paddingBottom: 30 }}>
+          <source src={demo} type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
 
         {/* <div style={{ maxWidth: "1100px", width: "100%", paddingBottom: "15px" }}>
           <iframe

@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Robotics from "./components/Projects/Robotics";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import RhinoAI from "./components/ProjectsPages/RhinoAI";
@@ -12,6 +13,8 @@ import Transformable from "./components/ProjectsPages/Transformable";
 import Workshop from "./components/ProjectsPages/Workshop";
 import CNN from "./components/ProjectsPages/CNN";
 import TenantPower from "./components/ProjectsPages/TenantPower";
+import Drone from "./components/ProjectsPages/Drone";
+import VirtualRobot from "./components/ProjectsPages/VirtualRobot";
 
 import {
   BrowserRouter as Router,
@@ -43,7 +46,8 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/hci" element={<Projects />} />
+          <Route path="/robotics" element={<Robotics />} />
           {/* <Route path="/about" element={<About />} /> */}
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
@@ -54,6 +58,8 @@ function App() {
           <Route path="/tenantpower" element={<TenantPower />} />
           <Route path="/parkcnn" element={<CNN />} />
           <Route path="/designplaykit" element={<Workshop />} />
+          <Route path="/drone" element={<Drone />} />
+          <Route path="/virtualrobot" element={<VirtualRobot />} />
         </Routes>
         {/* <Footer /> */}
       </div>
