@@ -6,6 +6,13 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import RhinoAI from "./components/ProjectsPages/RhinoAI";
+import Visualizer from "./components/ProjectsPages/Visualizer";
+import Transformable from "./components/ProjectsPages/Transformable";
+import Workshop from "./components/ProjectsPages/Workshop";
+import CNN from "./components/ProjectsPages/CNN";
+import TenantPower from "./components/ProjectsPages/TenantPower";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -37,11 +44,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
+
+          <Route path="/rhinoai" element={<RhinoAI />} />
+          <Route path="/visualizer" element={<Visualizer />} />
+          <Route path="/transformable" element={<Transformable />} />
+          <Route path="/tenantpower" element={<TenantPower />} />
+          <Route path="/parkcnn" element={<CNN />} />
+          <Route path="/designplaykit" element={<Workshop />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

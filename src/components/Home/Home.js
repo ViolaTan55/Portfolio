@@ -4,33 +4,46 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Button from "react-bootstrap/Button";
+import pdf from "../../Assets/../Assets/Viola_Tan_Resume.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+              <h1 className="heading-name">Hi! I'm
+                <strong className="main-name"> Viola Tan</strong>
               </h1>
 
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
-              </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ paddingTop: 30, textAlign: "left" }}>
                 <Type />
               </div>
+
+              <p className="home-about-body">
+              I want to combine design and technology like machine learning for social good.
+              <br />
+              <br />
+              I care about <b className="purple">accessibility</b>, so I visualize <b className="purple">data</b> and <b className="purple">machine learning models.</b> I also make <b className="purple">3D modeling</b> and <b className="purple">architectural design</b> processes more learnable.
+              
+            </p>
+            <br />
+            <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
+          <p style={{paddingTop: 30,opacity: 0.5}}>website forked from Soumyajit4419</p>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingTop: 40 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -41,7 +54,7 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      
     </section>
   );
 }
