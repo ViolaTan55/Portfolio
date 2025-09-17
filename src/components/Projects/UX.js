@@ -18,6 +18,7 @@ function Projects() {
               isBlog={false}
               title="NASA Spacesuit Interface"
               link="/suits"
+              keywords="UX • AR"
               description="Developing an AR spacesuit user interface for the NASA SUITS Challenge, assisting astronauts to access critical information during extravehicular activities."
             />
           </Col>
@@ -28,6 +29,7 @@ function Projects() {
               isBlog={false}
               title="Gossip App"
               link="/gossip"
+              keywords="UX • Frontend • Web App"
               description="Facilitating healthy gossipping through addressing pain points identified during user research."
             />
           </Col>

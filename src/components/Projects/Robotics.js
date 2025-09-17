@@ -19,6 +19,7 @@ function Projects() {
               isBlog={false}
               title="Transformable Surfaces"
               link="/transformable"
+              keywords="Optimization • 3D Geometry"
               description="Optimization algorithm that can transform any eligible surface into transformable scissor structures that expands and contracts."
               /*}
               ghLink="https://github.com/soumyajit4419/Editor.io"
@@ -32,6 +33,7 @@ function Projects() {
               isBlog={false}
               title="Pi Drone"
               link="/drone"
+              keywords="Control • Sensors • State Estimation"
               description="A small quad-rotor helicopter that uses PID controllers for stable flight, localization with a camera, and Kalman Filters for state estimation."
             />
           </Col>
@@ -42,6 +44,7 @@ function Projects() {
               isBlog={false}
               title="Virtual Robotics"
               link="/virtualrobot"
+              keywords="Sensors • Simulation"
               description="Building virtual robots and environments for an education platform featuring block-based programming."
             />
           </Col>

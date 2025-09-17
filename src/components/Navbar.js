@@ -74,6 +74,17 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/ux"
+                onClick={() => updateExpanded(false)}
+              >
+                <FiFeather style={{ marginBottom: "2px" }} /> {" "}
+                UX
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/hci"
                 onClick={() => updateExpanded(false)}
               >
@@ -81,17 +92,6 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 HCI
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/ux"
-                onClick={() => updateExpanded(false)}
-              >
-                <FiFeather style={{ marginBottom: "2px" }} /> {" "}
-                UX
               </Nav.Link>
             </Nav.Item>
 
