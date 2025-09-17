@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-//import homeLogo from "../../Assets/home-main.svg";
-import homeLogo from "../../Assets/Projects/tenantpower.png"
+//import homeLogo from "/Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/Viola_Tan_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Home() {
@@ -33,7 +31,7 @@ function Home() {
             <br />
             <Button
             variant="primary"
-            href={pdf}
+            href="/Assets/Viola_Tan_Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -45,7 +43,7 @@ function Home() {
 
             <Col md={5} style={{ paddingTop: 120 }}>
               <img
-                src={homeLogo}
+                src="/Assets/Projects/tenantpower.png"
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}

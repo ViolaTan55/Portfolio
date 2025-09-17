@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import research from "../../Assets/ProjectPages/SUITS/research.svg"
-import journeymaps from "../../Assets/ProjectPages/SUITS/storyboard.png"
-import features from "../../Assets/ProjectPages/SUITS/features.svg"
-import sketches from "../../Assets/ProjectPages/SUITS/sketch2.png"
-import userflow from "../../Assets/ProjectPages/SUITS/userflow.png"
-import testing from "../../Assets/ProjectPages/SUITS/testing.svg"
-import results from "../../Assets/ProjectPages/SUITS/results.png"
-import nasa from "../../Assets/ProjectPages/SUITS/nasa.png"
-import demoButtonBg from "../../Assets/ProjectPages/SUITS/suits.png"
 
 
 function SUITS() {
@@ -46,7 +37,7 @@ function SUITS() {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              backgroundImage: `url(${demoButtonBg})`,
+              backgroundImage: `url(/Assets/ProjectPages/SUITS/suits.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -130,7 +121,7 @@ function SUITS() {
 
         <h3 className="suits-title" style={{ marginBottom: 10 }}>User Research & Interviews</h3>
         <p style={{ color: "#666", textAlign: "left", marginBottom: 0 }}>We started our research by reading the Apollo Mission Reports and getting hold of what happens during a lunar surface extravehicular activity. Then, we interviewed real astronauts to learn about their pain points.</p>
-        <img src={research} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/research.svg" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
         <div className="suits-objectives">
           <h3 className="suits-title" style={{ marginBottom: 40 }}>Pain Points & Journey Maps</h3>
@@ -148,30 +139,30 @@ function SUITS() {
         </div>
 
         {/* <h3 className="suits-title">User Journey Maps</h3> */}
-        <img src={journeymaps} className="img-fluid" style={{maxWidth: "900px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/storyboard.png" className="img-fluid" style={{maxWidth: "900px", paddingBottom: 15}}/>
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 10 }}>Translating Objectives + Pain Points into Features</h3>
         <p style={{ color: "#666", textAlign: "left", marginBottom: 24 }}>Based on requirements and user insights, we brainstormed features such as creating visual guides away from obstacles.</p>
-        <img src={features} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/features.svg" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 24 }}>Sketching the Interface</h3>
-        <img src={sketches} className="img-fluid" style={{maxWidth: "900px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/sketch2.png" className="img-fluid" style={{maxWidth: "900px", paddingBottom: 15}}/>
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 10 }}>User Flow Diagrams</h3>
         <p style={{ color: "#666", textAlign: "left", marginBottom: 40 }}>Below is the user flow diagram for Lunar Navigation, one of the UI's 4 core functions.</p>
-        <img src={userflow} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/userflow.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 10 }}>User Testing</h3>
         <p style={{ color: "#666", textAlign: "left", marginBottom: 0 }}>We conducted 5-6 rounds of user testing at different stages, using metrics like user response time, movement tracking, and qualitative feedback. We learned to implement early on so that we could test AR-specific metrics such as reachability of UI in space.</p>
-        <img src={testing} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 0}}/>
+        <img src="/Assets/ProjectPages/SUITS/testing.svg" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 0}}/>
 
         <h3 className="suits-title" style={{ marginTop: 0, marginBottom: 24 }}>From Testing Insights to Final Design</h3>
-        <img src={results} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/SUITS/results.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 40 }}>Validation from NASA</h3>
         <Row className="d-flex justify-content-center">
             <Col md={5}>
-            <img src={nasa} className="img-fluid" style={{maxWidth: "500px", paddingBottom: 15}}/>
+            <img src="/Assets/ProjectPages/SUITS/nasa.png" className="img-fluid" style={{maxWidth: "500px", paddingBottom: 15}}/>
             </Col>
             <Col md={6} style={{textAlign: "left", paddingLeft: 100, paddingTop: 30}}>
               <h3 className="suits-section-title">Intuitive, fast learning curve</h3>

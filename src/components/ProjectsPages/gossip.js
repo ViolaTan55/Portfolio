@@ -2,16 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 
-import paper1 from "../../Assets/ProjectPages/gossip/paper1.png"
-import paper2 from "../../Assets/ProjectPages/gossip/paper2.png"
-import testing1 from "../../Assets/ProjectPages/gossip/testing1.png"
-import testing2 from "../../Assets/ProjectPages/gossip/testing2.png"
-import testing3 from "../../Assets/ProjectPages/gossip/testing3.png"
-import testing4 from "../../Assets/ProjectPages/gossip/testing4.png"
-import testing5 from "../../Assets/ProjectPages/gossip/testing5.png"
-import notes from "../../Assets/ProjectPages/gossip/notes.png"
-import figma from "../../Assets/ProjectPages/gossip/figma.png"
-import demoButtonBg from "../../Assets/ProjectPages/gossip/demo.png"
 
 
 function Gossip() {
@@ -54,7 +44,7 @@ function Gossip() {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              backgroundImage: `url(${demoButtonBg})`,
+              backgroundImage: `url(/Assets/ProjectPages/gossip/demo.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -138,12 +128,12 @@ function Gossip() {
             <Col md={5} className="suits-section" style={{backgroundColor: "white"}}>
               <h3 className="suits-section-title">▶  Boundaries/Consent Tags</h3>
               <p className="suits-text">Before sharing gossip, if a subject is detected, the app prompts the sharer with a reminder about the subject’s consent preferences. This ensures that people respect personal limits, reducing accidental harm while still allowing gossip in a controlled way.</p>
-              <img src={paper1} className="img-fluid" style={{maxWidth: "420px", paddingBottom: 15, paddingLeft: 15, paddingTop: 15}}/>
+              <img src="/Assets/ProjectPages/gossip/paper1.png" className="img-fluid" style={{maxWidth: "420px", paddingBottom: 15, paddingLeft: 15, paddingTop: 15}}/>
             </Col>
             <Col md={5} className="suits-section" style={{backgroundColor: "white"}}>
             <h3 className="suits-section-title">▶  Verify or Claim Rumors</h3>
               <p className="suits-text">If a rumor spreads about someone, they can post a response that gets automatically shown to everyone who interacted with the gossip. This gives people an easy way to correct misinformation at scale, preventing rumors from spreading uncontested.</p>
-              <img src={paper2} className="img-fluid" style={{maxWidth: "400px", paddingBottom: 15, paddingTop: 15}}/>
+              <img src="/Assets/ProjectPages/gossip/paper2.png" className="img-fluid" style={{maxWidth: "400px", paddingBottom: 15, paddingTop: 15}}/>
             </Col>
             
           </Row>
@@ -154,16 +144,16 @@ function Gossip() {
 
         <Row style={{ marginBottom: 40 }}>
           <Col md={3}>
-            <img src={testing1} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/testing1.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
           </Col>
           <Col md={3}>
-            <img src={testing2} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/testing2.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
           </Col>
           <Col md={3}>
-            <img src={testing3} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/testing3.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
           </Col>
           <Col md={3}>
-            <img src={testing4} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/testing4.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
           </Col>
         </Row>
 
@@ -183,7 +173,7 @@ function Gossip() {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              backgroundImage: `url(${figma})`,
+              backgroundImage: `url(/Assets/ProjectPages/gossip/figma.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -236,11 +226,11 @@ function Gossip() {
         
         <Row className="text-center" style={{ marginBottom: 40, marginTop:20 }}>
           <Col md={6}>
-            <img src={testing5} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/testing5.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
             <p style={{ color: "#666", textAlign: "center", marginTop: 15, marginBottom: 40 }}>User Testing</p>
           </Col>
           <Col md={6}>
-            <img src={notes} className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
+            <img src="/Assets/ProjectPages/gossip/notes.png" className="img-fluid" style={{maxWidth: "100%", height: "300px", objectFit: "cover"}}/>
             <p style={{ color: "#666", textAlign: "center", marginTop: 15,marginBottom: 40 }}>Raw Notes</p>
           </Col>
         </Row>
@@ -261,7 +251,7 @@ function Gossip() {
             rel="noopener noreferrer"
             style={{
               display: "inline-block",
-              backgroundImage: `url(${demoButtonBg})`,
+              backgroundImage: `url(/Assets/ProjectPages/gossip/demo.png)`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

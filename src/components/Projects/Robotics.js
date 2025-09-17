@@ -2,9 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import transformable from "../../Assets/Projects/transformable.png";
-import drone from "../../Assets/Projects/drone.png";
-import virtualrobot from "../../Assets/Projects/virtual.png";
 
 function Projects() {
   return (
@@ -18,7 +15,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={transformable}
+              imgPath="/Assets/Projects/transformable.png"
               isBlog={false}
               title="Transformable Surfaces"
               link="/transformable"
@@ -31,7 +28,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={drone}
+              imgPath="/Assets/Projects/drone.png"
               isBlog={false}
               title="Pi Drone"
               link="/drone"
@@ -41,7 +38,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={virtualrobot}
+              imgPath="/Assets/Projects/virtual.png"
               isBlog={false}
               title="Virtual Robotics"
               link="/virtualrobot"

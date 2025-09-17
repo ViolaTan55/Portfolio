@@ -3,12 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import rhinoAI from "../../Assets/Projects/rhinoai3.png";
-import visualizer from "../../Assets/Projects/visualizer.png";
-import transformable from "../../Assets/Projects/transformable.png";
-import tenantpower from "../../Assets/Projects/tenantpower.png";
-import cnn from "../../Assets/Projects/cnn.png";
-import workshop from "../../Assets/Projects/workshop.png";
 
 function Projects() {
   return (
@@ -21,7 +15,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rhinoAI}
+              imgPath="/Assets/Projects/rhinoai3.png"
               isBlog={false}
               title="RhinoAI"
               link="/rhinoai"
@@ -31,7 +25,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={visualizer}
+              imgPath="/Assets/Projects/visualizer.png"
               isBlog={false}
               title="3D Encoder Visualizer"
               link="/visualizer"
@@ -41,7 +35,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={transformable}
+              imgPath="/Assets/Projects/transformable.png"
               isBlog={false}
               title="Transformable Seifert Surfaces"
               link="/transformable"
@@ -55,7 +49,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tenantpower}
+              imgPath="/Assets/Projects/tenantpower.png"
               isBlog={false}
               title="Tenant Power"
               link="/tenantpower"
@@ -65,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={workshop}
+              imgPath="/Assets/Projects/workshop.png"
               isBlog={false}
               title="Design-Play Kit"
               link="/designplaykit"
@@ -75,7 +69,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cnn}
+              imgPath="/Assets/Projects/cnn.png"
               isBlog={false}
               title="Park Event Categorization"
               link="/parkcnn"

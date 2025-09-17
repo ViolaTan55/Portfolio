@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,7 +7,6 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/../Assets/Viola_Tan_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Home2() {
@@ -30,7 +28,7 @@ function Home2() {
             <br />
             <Button
             variant="primary"
-            href={pdf}
+            href="/Assets/Viola_Tan_Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -40,7 +38,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src="/Assets/avatar.svg" className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

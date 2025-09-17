@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import page from "../../Assets/../Assets/Robotics/drone_page.png"
 
 
 function Drone() {
@@ -32,7 +31,7 @@ function Drone() {
 
         </p>
 
-        <img src={page} className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+        <img src="/Assets/Robotics/drone_page.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
 
       </Col>

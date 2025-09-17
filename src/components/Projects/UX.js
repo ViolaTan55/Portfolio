@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 
-import suits from "../../Assets/Projects/suits.png";
-import gossip from "../../Assets/Projects/gossip.png";
 
 function Projects() {
   return (
@@ -16,7 +14,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suits}
+              imgPath="/Assets/Projects/suits.png"
               isBlog={false}
               title="NASA Spacesuit Interface"
               link="/suits"
@@ -26,7 +24,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gossip}
+              imgPath="/Assets/Projects/gossip.png"
               isBlog={false}
               title="Gossip App"
               link="/gossip"

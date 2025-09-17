@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import titlepage from "../../Assets/../Assets/ProjectPages/workshop.JPG"
-import page1 from "../../Assets/../Assets/ProjectPages/Portfolio_Page_23.png"
-import page2 from "../../Assets/../Assets/ProjectPages/Portfolio_Page_24.png"
-import page3 from "../../Assets/../Assets/ProjectPages/Portfolio_Page_25.png"
-import page4 from "../../Assets/../Assets/ProjectPages/Portfolio_Page_26.png"
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
@@ -34,16 +29,16 @@ function Workshop() {
             23 Spring, Rhode Island School of Design. With <em>Architecture for All</em>.
         </p>
 
-        <img src={titlepage} className="img-fluid" style={{paddingBottom: 30}}/>
+        <img src="/Assets/ProjectPages/workshop.JPG" className="img-fluid" style={{paddingBottom: 30}}/>
 
       <p className="project-description" style={{ paddingBottom: 15 }}>
           This is a collaborative design research project between Architecture for All, a student organization at Rhode Island School of Design that I founded, and ONE Neighborhood Builders, a housing nonprofit in Providence. In researching how to design for adaptive reuse, we organized a workshop at RISD with this interactive device to engage the public in the design process, making architectural design accessible.
         </p>
       
-        <img src={page1} className="img-fluid" style={{paddingBottom: 15}}/>
-        <img src={page2} className="img-fluid" style={{paddingBottom: 15}}/>
-        <img src={page3} className="img-fluid" style={{paddingBottom: 15}}/>
-        <img src={page4} className="img-fluid" style={{paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/Portfolio_Page_23.png" className="img-fluid" style={{paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/Portfolio_Page_24.png" className="img-fluid" style={{paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/Portfolio_Page_25.png" className="img-fluid" style={{paddingBottom: 15}}/>
+        <img src="/Assets/ProjectPages/Portfolio_Page_26.png" className="img-fluid" style={{paddingBottom: 15}}/>
 
 
       </Col>
