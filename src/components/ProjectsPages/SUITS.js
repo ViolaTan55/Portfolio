@@ -154,7 +154,7 @@ function SUITS() {
 
         <h3 className="suits-title" style={{ marginTop: 40, marginBottom: 10 }}>User Testing</h3>
         <p style={{ color: "#666", textAlign: "left", marginBottom: 0 }}>We conducted 5-6 rounds of user testing at different stages, using metrics like user response time, movement tracking, and qualitative feedback. We learned to implement early on so that we could test AR-specific metrics such as reachability of UI in space.</p>
-        <img src="/Assets/ProjectPages/SUITS/testing.svg" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 0}}/>
+        <img src="/Assets/ProjectPages/SUITS/testing.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 0}}/>
 
         <h3 className="suits-title" style={{ marginTop: 0, marginBottom: 24 }}>From Testing Insights to Final Design</h3>
         <img src="/Assets/ProjectPages/SUITS/results.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>

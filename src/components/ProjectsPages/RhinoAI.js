@@ -30,7 +30,7 @@ function RhinoAI() {
             24 Fall, Harvard University. With Melo Chen, Kida Huang.
         </p>
 
-        <div style={{ maxWidth: "1100px", width: "100%", paddingBottom: "15px" }}>
+        {/* <div style={{ maxWidth: "1100px", width: "100%", paddingBottom: "15px" }}>
           <iframe
             width="100%" // Make iframe responsive
             height="612" // Adjust height proportionally (e.g., 16:9 aspect ratio)
@@ -56,7 +56,17 @@ function RhinoAI() {
             allowFullScreen // Use camelCase for React
             style={{ border: "none" }} // Remove iframe border
           ></iframe>
-        </div>
+        </div> */}
+
+        <video width="100%" height="auto" controls style={{ paddingBottom: 15 }}>
+          <source src="/Assets/ProjectPages/RhinoAI/rhinoai1.mp4" type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
+
+        <video width="100%" height="auto" controls style={{ paddingBottom: 15 }}>
+          <source src="/Assets/ProjectPages/RhinoAI/rhinoai2.mp4" type="video/mp4"/>
+          Your browser does not support the video tag.
+        </video>
      
       <p className="project-description" style={{ paddingBottom: 15 }}>
           RhinoAI presents a novel framework designed to integrate LLM capabilities into Rhino to assist novice users in 3D modeling through providing both detailed, step-by-step instructions, and procedurally modeled sample results. Through its unique multi-agent architecture, the system bridges the gap between natural language inputs and complex 3D modeling workflows. This approach democratizes 3D modeling, transforming it from a technical challenge into a creative and accessible experience.
@@ -99,6 +109,8 @@ function RhinoAI() {
         </p>
 
         <img src="/Assets/ProjectPages/RhinoAI/RhinoAI_Page_7.png" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
+
+        <img src="/Assets/ProjectPages/RhinoAI/ui.jpg" className="img-fluid" style={{maxWidth: "1100px", paddingBottom: 15}}/>
 
       </Col>
       </Row>
