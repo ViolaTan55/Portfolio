@@ -15,6 +15,9 @@ import CNN from "./components/ProjectsPages/CNN";
 import TenantPower from "./components/ProjectsPages/TenantPower";
 import Drone from "./components/ProjectsPages/Drone";
 import VirtualRobot from "./components/ProjectsPages/VirtualRobot";
+import UX from "./components/Projects/UX";
+import SUITS from "./components/ProjectsPages/SUITS";
+import Gossip from "./components/ProjectsPages/gossip";
 
 import {
   BrowserRouter as Router,
@@ -60,6 +63,9 @@ function App() {
           <Route path="/designplaykit" element={<Workshop />} />
           <Route path="/drone" element={<Drone />} />
           <Route path="/virtualrobot" element={<VirtualRobot />} />
+          <Route path="/ux" element={<UX />} />
+          <Route path="/suits" element={<SUITS />} />
+          <Route path="/gossip" element={<Gossip />} />
         </Routes>
         {/* <Footer /> */}
       </div>

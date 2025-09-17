@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import rhinoAI from "../../Assets/Projects/rhinoai3.png";
 import visualizer from "../../Assets/Projects/visualizer.png";
-import transformable from "../../Assets/Projects/transformable.png";
+
 import tenantpower from "../../Assets/Projects/tenantpower.png";
 import cnn from "../../Assets/Projects/cnn.png";
 import workshop from "../../Assets/Projects/workshop.png";
@@ -16,7 +16,7 @@ function Projects() {
       
       <Container>
         <h1 className="project-heading">
-          Human-Computer <strong className="purple">Interaction </strong>
+          Human-Computer Interaction
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -25,7 +25,7 @@ function Projects() {
               isBlog={false}
               title="RhinoAI"
               link="/rhinoai"
-              description="RhinoAI redefines the landscape of 3D modeling by seamlessly integrating large language models (LLMs) with Rhinoceros 3D, offering an intuitive, dynamic, and accessible framework for novice and professional users alike."
+              description="Integrating LLMs with Rhino to provide procedural instructions and demonstrations, making 3D modeling accessible to novice users."
             />
           </Col>
 
@@ -35,22 +35,11 @@ function Projects() {
               isBlog={false}
               title="3D Encoder Visualizer"
               link="/visualizer"
-              description="Through making the invisible visible, this project aims to provide a intuitive and interactive way to understand the inner workings of 3D generative models by visualizing its 3D encoder step-by-step."
+              description="An intuitive and interactive way to understand the inner workings of 3D generative models by visualizing cross-attention in its 3D encoder."
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={transformable}
-              isBlog={false}
-              title="Transformable Seifert Surfaces"
-              link="/transformable"
-              description="Through finding points on a given surface where normal vectors intersect, this algorithm can transform any given surface into transformable scissor structures that expands and contracts."
-              /*}
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"*/         
-            />
-          </Col>
+          
 
 
           <Col md={4} className="project-card">
@@ -59,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Tenant Power"
               link="/tenantpower"
-              description="Identified corporate landlord networks in Massachusetts and developed interactive data visualizations for tenants, activists and nonprofits."
+              description="Identifying corporate landlord networks in Massachusetts and developing interactive data visualizations for tenants."
             />
           </Col>
 
@@ -69,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Design-Play Kit"
               link="/designplaykit"
-              description="Develop a prototype converting abandoned retail stores into affordable housing sites, while incorporating digital tools in a public event to engage people outside of architecture to join the reimagination of these abandoned sites."
+              description="Building an interactive installation for a public event to engage people outside of architecture to join the reimagination of abandoned sites."
             />
           </Col>
 
@@ -79,7 +68,7 @@ function Projects() {
               isBlog={false}
               title="Park Event Categorization"
               link="/parkcnn"
-              description="Trained a CNN classifier using the NYCParks dataset with Keras and tensorflow backened. The classifier sucessfully predicted the various types of park events, and was then applied onto scraped social media imagery to help urban planners understand park usage."
+              description="Training a CNN classifier using the NYCParks dataset and applying it on social media imagery to help urban planners understand park usage."
             />
           </Col>
 

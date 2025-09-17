@@ -14,6 +14,7 @@ import {
   AiOutlineUser,
   AiOutlineRobot,
 } from "react-icons/ai";
+import { FiFeather } from "react-icons/fi";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -40,7 +41,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          Viola Tan
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -86,6 +88,17 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/ux"
+                onClick={() => updateExpanded(false)}
+              >
+                <FiFeather style={{ marginBottom: "2px" }} /> {" "}
+                UX
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/robotics"
                 onClick={() => updateExpanded(false)}
               >
@@ -95,6 +108,8 @@ function NavBar() {
                 Robotics
               </Nav.Link>
             </Nav.Item>
+
+            
 
             {/* <Nav.Item>
               <Nav.Link

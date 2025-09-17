@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+//import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/Projects/tenantpower.png"
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -15,8 +16,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 className="heading-name">Hi! I'm
-                <strong className="main-name"> Viola Tan</strong>
+              <h1 className="heading-name">Hi! I'm Viola
               </h1>
 
               <div style={{ paddingTop: 30, textAlign: "left" }}>
@@ -43,7 +43,7 @@ function Home() {
           <p style={{paddingTop: 30,opacity: 0.5}}>website forked from Soumyajit4419</p>
             </Col>
 
-            <Col md={5} style={{ paddingTop: 40 }}>
+            <Col md={5} style={{ paddingTop: 120 }}>
               <img
                 src={homeLogo}
                 alt="home pic"
