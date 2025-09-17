@@ -49,7 +49,7 @@ function Home() {
                 </div>
 
                 <p className="home-about-body">
-                I am a Master candidate at Harvard studying human-computer interaction.
+                I am a Master's student at Harvard studying human-computer interaction.
                 <br />
                 <br />
                 {/* I care about <b className="purple">accessibility</b>, so I visualize <b className="purple">data</b> and <b className="purple">machine learning models.</b> I also make <b className="purple">3D modeling</b> and <b className="purple">architectural design</b> processes more learnable. */}
